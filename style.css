@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.btn1{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: blue;
+}
+table {
+    margin-top:20px ;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+td{
+    width: 250px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+tr {
+    background-color: white;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: red;
+}
+.btn3{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: yellow;
+}
+p{
+    font-size: 1.3em;
+}
+.s{
+    color: red;
+}
+.n{
+    color: gold;
+}
